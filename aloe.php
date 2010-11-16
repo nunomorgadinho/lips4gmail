@@ -1,7 +1,9 @@
 <?php
 
-echo $_REQUEST['msg'];
-
+/*
+ * This script will receive the message sent by the gadget
+ * and send it as an email.
+ */
 
 $to = $_REQUEST['to'];
 $from = $_REQUEST['from'];
