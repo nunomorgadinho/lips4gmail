@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <!--
+  
+    lips.xml
+    
+    Lips gadget
+    
+    Copyright 2010 WidgiLabs
+  
+  -->
+  <ModulePrefs title="Lips"
+               title_url="http://gad.getpla.net/poly/" 
+               directory_title="Lips for GMail"
+               description="This gadget allows you to send voice messages very easily to a recipient (no Flash needed, uses HTML5)."
+               author="Nuno Morgadinho"
+               author_email="nuno.morgadinho+lips@gmail.com"
+               author_location="Lisbon, PT"
+               author_affiliation="WidgiLabs"
+               author_photo="http://tech.morgadinho.org/static/3913488260_063402ff5d.jpg"
+               author_aboutme="explorer of possibilities, curious mind, experimenting and playing with life, technology, software and startups"
+               author_link="http://www.morgadinho.org"
+               author_quote="We think too much and feel too little"
+               height="153"
+               width="162"
+               scrolling="false"
+               screenshot="http://tech.morgadinho.org/codebits2010/lips.jpg"
+               thumbnail="http://tech.morgadinho.org/codebits2010/lips.jpg">
+  </ModulePrefs>
+  <Content type="html"><![CDATA[
+	<form method="GET" action="http://tech.morgadinho.org/codebits2010/aloe.php">
+	<label>From:</label><br/>
+	 <input type="text" name="from" id="from" /><br/>
+	<label>To:</label><br/>
+	 <input type="text" name="to" id="to" /><br/>
+	<label>Msg:</label><br/>
+	 <input type="text" name="msg" id="msg" x-webkit-speech>
+	<br/>
+	<input type="submit" value="Send" />
+	</form>
+  ]]></Content>
+</Module> 
