@@ -1,3 +1,3 @@
-A GMail gadget to allow sending voice messages easily. It uses the HTML5 Speech attribute. 
+A GMail gadget that allows you to send voice messages to a recipient. It uses the new HTML5 speech attribute for speech-to-text.
 
 Tested using Google Chrome.
