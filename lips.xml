@@ -6,11 +6,11 @@
     
     Lips gadget
     
-    Copyright 2010 WidgiLabs
-  
+    Nuno Morgadinho 
+ 
   -->
   <ModulePrefs title="Lips"
-               title_url="http://gad.getpla.net/poly/" 
+               title_url="http://tech.morgadinho.org/codebits2010/" 
                directory_title="Lips for GMail"
                description="This gadget allows you to send voice messages very easily to a recipient (no Flash needed, uses HTML5)."
                author="Nuno Morgadinho"
